@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ 
+<html lang="de">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wortwürfel</title>
+  
+	<script src="jquery-1.10.2.min.js"></script>
+	<script src="ICanHaz.js"></script>
+   <script src="autosize.js"></script>
+   <link rel="stylesheet" href="style.css" />
+
+   <script src="wortwuerfel.js"></script>
+   <script src="listen.js"></script>
+</head>
+<body>
+	<div id="page">
+		<table id="wort_tab">
+		</table>	
+	</div>
+	<div id="autosizespan" class="hide"></div>
+</body>
+	<script id="wort_tabrow_pattern" type="text/html">
+		<tr>
+			<td class="fullsizetext">
+				{{wort}}
+			</td>
+		</tr>
+	</script>
+</html>

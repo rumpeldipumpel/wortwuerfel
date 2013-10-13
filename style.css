@@ -1,0 +1,25 @@
+html, body, .fullheight {
+	height: 95%;
+	min-height: 95%;
+}
+
+#page { 
+	height: 100%;
+	min-height: 90%; 
+	position: relative;
+	overflow: hidden;
+}
+
+#wort_tab {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+}
+
+tr {
+	height: 30%;
+	width: 100%;
+	text-align: center;
+}
+
+.hide { display: none; }
